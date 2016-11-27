@@ -1,5 +1,8 @@
 import React from 'react';
 import { render } from 'react-dom';
+
+import Constants from '../constants/AppConstants';
+
 import { PropTypes } from 'react-router';
 
 export default class App extends React.Component {
@@ -7,7 +10,6 @@ export default class App extends React.Component {
   constructor() {
     super();
   }
-
 
   render() {
     return (

@@ -14,6 +14,12 @@ const common = {
   entry: {
     app: [PATHS.app],
     vendor1 : [
+        'request',
+        'bluebird',
+        'keymirror'
+        ],
+        vendor2 : [
+        'flux',
         'react',
         'react-router',
         'react-dom',
