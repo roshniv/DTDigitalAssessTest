@@ -1,0 +1,30 @@
+{
+  "name": "test",
+  "description": "Test",
+  "main": "mail.js",
+  "authors": [
+    "Roshni Valecha <roshni.valecha22@gmail.com>"
+  ],
+  "license": "EPL",
+  "keywords": [
+    "react"
+  ],
+  "moduleType": [
+    "es6",
+    "globals",
+    "node"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/styles",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery-snappish": "^0.2.0"
+  }
+}
