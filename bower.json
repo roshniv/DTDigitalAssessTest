@@ -1,11 +1,11 @@
 {
   "name": "test",
-  "description": "Test",
+  "description": "ProgressBar",
   "main": "mail.js",
   "authors": [
-    "Roshni Valecha <roshni.valecha22@gmail.com>"
+    "Roshni Valecha<roshni.valecha22@gmail.com"
   ],
-  "license": "EPL",
+  "license": "MIT",
   "keywords": [
     "react"
   ],

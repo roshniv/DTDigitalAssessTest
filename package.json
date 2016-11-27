@@ -1,7 +1,7 @@
 {
   "name": "Test",
   "version": "1.0.0",
-  "description": "Domain Assessment Code",
+  "description": "Test",
   "scripts": {
     "start": "node server.js",
     "deploy": "NODE_ENV=Production webpack --progress --colors -p",
@@ -9,7 +9,7 @@
     "dev": "webpack-dev-server",
     "staging": "NODE_ENV=Production webpack --progress --colors -p"
   },
-  "license": "MIT",
+  "license": "EPL",
   "jest": {
     "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
     "testFileExtensions": [
@@ -49,10 +49,17 @@
     "webpack-merge": "^0.8.3"
   },
   "dependencies": {
+    "bluebird": "^3.2.0",
+    "flux": "^2.0.3",
     "json-loader": "^0.5.4",
-    "react": "^0.14.7",
+    "keymirror": "^0.1.1",
+    "material-ui": "^0.16.4",
+    "node-sass": "^3.13.0",
+    "react": "^15.4.1",
     "react-bootstrap": "^0.28.3",
-    "react-dom": "^0.14.2",
-    "react-router": "1.0.2"
+    "react-dom": "^0.14.8",
+    "react-ga": "^2.1.2",
+    "react-router": "1.0.2",
+    "request": "^2.57.0"
   }
 }

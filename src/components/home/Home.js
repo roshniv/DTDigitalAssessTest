@@ -1,7 +1,6 @@
 import React from 'react';
 
-import HCard from './HCard';
-import Form from './Form';
+import HeroPage from './HeroPage';
 
 export default class Home extends React.Component {
 
@@ -9,13 +8,10 @@ export default class Home extends React.Component {
     super();
   }
 
-
   render() {
     return (
       <div id="homepage-wrapper">
-        <div className = "container">
-          <Form />          
-        </div>
+          <HeroPage referrerCode={this.props.location.query.code} email={this.props.location.query.email}/>
       </div>
     );
   }
