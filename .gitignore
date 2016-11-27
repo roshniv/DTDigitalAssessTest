@@ -1,0 +1,9 @@
+lib
+dist
+reports
+node_modules
+public/bundle
+public/js
+.project
+.DS_Store
+.idea/*
